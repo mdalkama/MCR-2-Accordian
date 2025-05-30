@@ -1,6 +1,9 @@
+import React from 'react';
+import Accordians from './components/accordians';
+import accordianData from './assets/data'
 function App() {
   return (
-    <div>App</div>
+    <Accordians data={accordianData}/>
   )
 }
 

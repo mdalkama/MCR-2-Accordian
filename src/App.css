@@ -1,0 +1,29 @@
+.accordian-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    height: 100vh;
+}
+.accordian{
+    min-height: 50px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 1px solid #cac5c5;
+
+}
+.accordian-header{
+    display: flex;
+    background-color: #FAFAFA;
+    border-radius: 6px 6px 6px 6px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+.accordian-content{
+    padding:0 15px;
+    background-color: transparent;
+}
